@@ -1,0 +1,30 @@
+.countryDetails {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: rgba(245, 245, 220, 0.2);
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  margin: 20px auto;
+  max-width: 600px;
+
+}
+
+.countryDetails h1, h3, h4 {
+  letter-spacing: 0.2em;
+}
+
+.countryDetails button {
+  width: 100px;
+}
+
+.countryDetails img {
+  box-shadow: 0 0 10px black;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
